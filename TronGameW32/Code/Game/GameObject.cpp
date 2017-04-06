@@ -2,7 +2,7 @@
 
 GameObject::GameObject()
 {
-	Speed = 30;
+	Speed = 60;
 }
 GameObject::~GameObject()
 {

@@ -7,7 +7,7 @@ Tron::Tron()
 	view=new sf::View(sf::Vector2f(0.0f, 0.0f), sf::Vector2f(650.0f, 650.0f));
 	menuept = new Menue(window);
 
-	BikeSize = sf::Vector2f(0.3f, 0.3f);
+	BikeSize = sf::Vector2f(0.2f, 0.2f);
 	playerPt = new Player(BikeSize, sf::Vector2f( 650 , 750));
 	EnemyPt = new Enemy(BikeSize, sf::Vector2f(650, 650));
 	
@@ -233,7 +233,6 @@ void Tron::CheckgridCollisions()
 			if (Tile.getFillColor() == sf::Color::Black)
 			{
 				Tile.setFillColor(sf::Color::Yellow);
-				//JustTouched.setPosition(Tile.getPosition());
 			}
 		}
 
@@ -248,9 +247,9 @@ void Tron::CheckgridCollisions()
 					JustTouched.setPosition(currentlyTouching.getPosition());
 				}
 				Tile.setFillColor(sf::Color::Blue);
-				currentlyTouching.setPosition(Tile.getPosition());
+				currentlyTouching.setPosition(Tile.getPosition()); 
 			}
-			else if (Tile.getFillColor() == sf::Color::Yellow)///*Tile.getPosition() != JustTouched.getPosition()*/)
+			else if (Tile.getFillColor() == sf::Color::Yellow)///*Tile.getPosition() != JustTouched.getPosition()*/)			
 			{
 				crash();
 			}

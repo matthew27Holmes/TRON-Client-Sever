@@ -31,6 +31,7 @@ private:
 	sf::Event event;
 	sf::Music music;
 	GameData* _GD;
+	bool wascoliding;
 
 	std::thread ClientMSG;
 	std::thread ClientInput;
