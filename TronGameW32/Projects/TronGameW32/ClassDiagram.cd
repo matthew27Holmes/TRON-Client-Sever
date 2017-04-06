@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Player" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAQAEQCAAAACIAFAAAAAAAAQAAAACCAQAABBQ=</HashCode>
+      <FileName>F:\UWE GAMES TEC WORK\LowLevel\TronGameW32\Code\Game\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GameData">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\UWE GAMES TEC WORK\LowLevel\TronGameW32\Code\Game\GameData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Action">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAASgQAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>F:\UWE GAMES TEC WORK\LowLevel\TronGameW32\Code\Game\Action.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EnemyAction">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEAAAAIAAAAAAAAAAAUAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\UWE GAMES TEC WORK\LowLevel\TronGameW32\Code\Game\Action.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameState">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAACAAAAAAAAAAAAgAIAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>F:\UWE GAMES TEC WORK\LowLevel\TronGameW32\Code\Game\Action.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
