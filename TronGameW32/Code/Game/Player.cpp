@@ -11,8 +11,6 @@ Player::Player( sf::Vector2f size, sf::Vector2f Postion)
 
 	
 	setAlive(true);
-
-	//set up size of death sprite sheet
 }
 
 Player::~Player()
@@ -63,10 +61,6 @@ void Player::activatePowerUp(sf::RenderWindow* window)
 			sf::Time powerUpdelay = sf::seconds(0.10);
 			sf::Time now = game_clock.getElapsedTime();
 			sf::Clock;
-			/*if (!now<= )
-			{
-				speed *= 2.0f;
-			}*/
 			break;
 		}
 	}

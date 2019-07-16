@@ -16,7 +16,6 @@ void Menue::runMenue()
 {
 	endGame = false;
 	createButtons();
-	//startButtonBox = startbutton.getPosition() + startbutton.getSize();
 
 	if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 	{
@@ -45,7 +44,6 @@ void Menue::createButtons()
 
 	start.loadFromFile("Start.png");
 	startbutton.setTexture(start);
-	//startbutton.setColor(sf::Color:: Blue);
 
 	Endbutton.setPosition(ButtonPostion.x, ButtonPostion.y + 200.0f);
 	Endbutton.setScale(ButtonSize);
